@@ -21,20 +21,31 @@ Steps for execution:
 5) Upload the data.csv file by accessing the Files icon in the left corner menu, navigating to the folder containing the file. Click open and ignore the warning.
 6) Access the Run environment/Run all menu
 7) Enter data for each factor relating to the individual in question:
-  Suicide in the family: Enter 1 for Yes and 0 for No.
-  Drugs in the family: Enter 1 for Yes and 0 for No.
-  Able to make important decisions: Enter a number from 1 to 5, with 1 being low capacity and 5 being high capacity.
-  Student: Enter 1 for Yes and 0 for No.
-  Hypochondriasis: Enter a number from 0 to 4, with 0 being no and 4 being a high level.
-  Feelings of guilt: Enter a number from 0 to 4, with 0 being no and 4 being high.
-  Work and interests: Enter a number from 0 to 4, with 0 being no and 4 being high level.
-  Energy: Enter a number from 0 to 2, with 0 being no and 2 being high level.
-  Suicide: Enter a number from 0 to 4, where 0 has no ideation and 4 has already made an attempt.
-  Anxiety: Enter a number from 0 to 4, with 1 being low anxiety and 4 being high anxiety.3
+   
+  	Suicide in the family: Enter 1 for Yes and 0 for No.
+  
+  	Drugs in the family: Enter 1 for Yes and 0 for No.
+  
+  	Able to make important decisions: Enter a number from 1 to 5, with 1 being low capacity and 5 being high capacity.
+  
+  	Student: Enter 1 for Yes and 0 for No.
+  
+  	Hypochondriasis: Enter a number from 0 to 4, with 0 being no and 4 being a high level.
+  
+  	Feelings of guilt: Enter a number from 0 to 4, with 0 being no and 4 being high.
+  
+  	Work and interests: Enter a number from 0 to 4, with 0 being no and 4 being high level.
+  
+  	Energy: Enter a number from 0 to 2, with 0 being no and 2 being high level.
+  
+  	Suicide: Enter a number from 0 to 4, where 0 has no ideation and 4 has already made an attempt.
+  
+  	Anxiety: Enter a number from 0 to 4, with 1 being low anxiety and 4 being high anxiety.
 
-8) After a few minutes, the value with the level of suicidal ideation predicted for the individual will be displayed
-9) The last step is to carry out counterfactual analyzes simulating changes in each of the features.
+9) After a few minutes, the value with the level of suicidal ideation predicted for the individual will be displayed
+10) The last step is to carry out counterfactual analyzes simulating changes in each of the features.
   You can change each of the 8 factors to see if the level of suicidal ideation will be raised with the change.
+  
   Note: If you need to perform more simulations, run the last cell again
 
 ## Prevenção do suicídio usando causalidade em aprendizado de máquina
@@ -65,18 +76,29 @@ Passos para execução:
 5) Faça o upload do arquivo data.csv acessando o ícone Arquivos no menu do canto esquerdo, navegando até a pasta que contenha o arquivo. Clique em abrir e ignore o aviso.
 6) Acesse o menu Ambiente de execução/Executar tudo
 7) Entre com os dados de cada fator referente ao indivíduo em questão:
+   
 	  Suicídio na família: Digite 1 para Sim e 0 para não.
+   
 	  Drogas na família: Digite 1 para Sim e 0 para não.
+   
 	  Capaz de tomar decisões importantes: Digite um número de 1 a 5, sendo 1 pouca capacidade e 5 muita capacidade.
+   
 	  Estudante: Digite 1 para Sim e 0 para não.
+   
 	  Hipocondriase: Digite um número de 0 a 4, sendo 0 não e 4 nível elevado.
+   
 	  Sentimentos de culpa: Digite um número de 0 a 4, sendo 0 não e 4 nível elevado.
+   
 	  Trabalho e interesses: Digite um número de 0 a 4, sendo 0 não e 4 nível elevado.
+   
 	  Energia: Digite um número de 0 a 2, sendo 0 não e 2 nível elevado.
+   
 	  Suicidio: Digite um número de 0 a 4, sendo 0 não possui ideação e 4 já efetuou alguma tentativa.
-	  Ansiedade: Digite um número de 0 a 4, sendo 1 pouca ansiedade e 4 muita ansiedade.3
+   
+	  Ansiedade: Digite um número de 0 a 4, sendo 1 pouca ansiedade e 4 muita ansiedade.
 
-8) Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo
-9) O último passo é fazer as análises contrafactuais simulando alterações em cada uma das features.
+9) Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo
+10) O último passo é fazer as análises contrafactuais simulando alterações em cada uma das features.
 	Você pode alterar cada um dos 8 fatores verificar se o nível de ideação suicida será sensibilizado com a mudança.
+
 Obs.: Caso necessite efetuar mais simulações, execute a última célula novamente
