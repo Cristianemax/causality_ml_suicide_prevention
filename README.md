@@ -40,7 +40,7 @@ Steps for execution:
   
   	Suicide: Enter a number from 0 to 4, where 0 has no ideation and 4 has already made an attempt.
   
-  	Anxiety: Enter a number from 0 to 4, with 1 being low anxiety and 4 being high anxiety.
+  	Anxiety: Enter a number from 0 to 4, with 0 being no and 4 being high level.
 
 9) After a few minutes, the value with the level of suicidal ideation predicted for the individual will be displayed
 10) The last step is to carry out counterfactual analyzes simulating changes in each of the features.
