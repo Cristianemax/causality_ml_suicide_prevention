@@ -81,24 +81,30 @@ Passos para execução:
    
 	  Drogas na família: Digite 1 para Sim e 0 para não.
    
-	  Capaz de tomar decisões importantes: Digite um número de 1 a 5, sendo 1 pouca capacidade e 5 muita capacidade.
+	  Capaz de tomar decisões importantes: Digite um número de 1 a 5, sendo: 1=Concordo totalmente; 2=Concordo; 3=Neutro; 4=Discordo; 5=Discordo totalmente.
    
-	  Estudante: Digite 1 para Sim e 0 para não.
+	  Estudante: Digite um número de 0 a 2, sendo: 0=Não; 1=Sim; 2=Meio período.
    
-	  Hipocondriase: Digite um número de 0 a 4, sendo 0 não e 4 nível elevado.
+	  Hipocondriase: Digite um número de 0 a 4, sendo: 0=Ausente; 1=Leve; 2=Moderado; 3=Moderadamente grave; 4=Grave.
    
-	  Sentimentos de culpa: Digite um número de 0 a 4, sendo 0 não e 4 nível elevado.
+	  Sentimentos de culpa: Digite um número de 0 a 4, sendo: 0=Ausente; 1=Duvidoso ou trivial: Autocensura, sente que decepcionou as pessoas; 2=Leve: Idéias de culpa ou 					ruminação sobre erros passados ou atos pecaminosos; 3=Moderado: A doença atual é uma punição. Delírios de culpa; 4=Grave: Ouve vozes acusatórias ou 				denunciatórias e/ou experimenta alucinações visuais ameaçadoras.
    
-	  Trabalho e interesses: Digite um número de 0 a 4, sendo 0 não e 4 nível elevado.
+	  Trabalho e interesses: Digite um número de 0 a 4, sendo:0=Ausente: Sem dificuldade; 1=Duvidoso ou trivial: Pensamentos e sentimentos de incapacidade, cansaço ou fraqueza 				 relacionados às atividades; trabalho ou hobbies; 2=Leve: Perda de interesse pela atividade; hobbies ou trabalho – relatados diretamente pelo 					 paciente, ou indiretos em apatia, indecisão e vacilação (sente que precisa se esforçar para trabalhar ou realizar atividades); 3=Moderado: Diminuição 				 do tempo real gasto nas atividades ou diminuição da produtividade; 4=Grave: Deixou de trabalhar por doença atual.
    
-	  Energia: Digite um número de 0 a 2, sendo 0 não e 2 nível elevado.
+	  Depressão na familia:  Digite 1 para Sim e 0 para não.
    
-	  Suicidio: Digite um número de 0 a 4, sendo 0 não possui ideação e 4 já efetuou alguma tentativa.
+          Álcool na familia:  Digite 1 para Sim e 0 para não.
    
-	  Ansiedade: Digite um número de 0 a 4, sendo 1 pouca ansiedade e 4 muita ansiedade.
+          Capaz de desfrutar das coisas: Digite um número de 1 a 5, sendo: 1=Concordo totalmente; 2=Concordo; 3=Neutro; 4=Discordo; 5=Discordo totalmente.
+
+	  Uso de drogas: Digite um número de 0 a 2, sendo: 0=Nenhum verificado; 1=Abuso; 2=Dependente.
+   
+	  Suicidio: Digite um número de 0 a 4, sendo: : 0=Ausente; 1=Sente que a vida está vazia; 2=Desejos de morte; 3=Pensamentos suicidas ativos; 4=Tentativa grave de suicídio.
+   
+	  Ansiedade: Digite um número de 0 a 4, sendo: 0=Ausente: Sem dificuldade; 1=Duvidoso ou trivial: Tensão subjetiva e irritabilidade; 2=Leve: Preocupação com assuntos menores; 		     3=Moderado: Atitude apreensiva aparente na face ou na fala; 4=Grave: Medos expressos sem questionamento.
 
 9) Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo
 10) O último passo é fazer as análises contrafactuais simulando alterações em cada uma das features.
-	Você pode alterar cada um dos 8 fatores verificar se o nível de ideação suicida será sensibilizado com a mudança.
+	Você pode alterar cada um dos 11 fatores e verificar se o nível de ideação suicida será sensibilizado com a mudança.
 
-Obs.: Caso necessite efetuar mais simulações, execute a última célula novamente
+Obs.: Caso necessite efetuar mais simulações, execute a última célula novamente. A alteração do valor do nível de ideação suicida em alguma simulação, pode significar que o indíviduo é sensível ao fator da simulação em questão. 
