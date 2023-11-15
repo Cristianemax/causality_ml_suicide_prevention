@@ -81,7 +81,8 @@ Passos para execução:
 
 1) No cantyo superior direito desta página, cliquem em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/77bf57af-2450-4075-a64a-6b40da37bfc0) e Selecione a opção "Download ZIP". Extraia o arquivo "ZIP" em uma pasta.
 2) Abra o link do google colab https://colab.research.google.com/ em um navegador (ex: google chrome)  
-3) Faça o login com sua conta google no navegador                                                                 
+3) Faça o login com sua conta google no navegador clicando em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/dee6386a-fb9b-4fdb-a73f-49161bd5cbe8) no canto superior direito.
+                                                                
 4) Acesse Upload/Procurar e navegue até a pasta que contenha o arquivo counterfactural_inference_new_individual.ipynb. Clique em abrir
 5) Faça o upload do arquivo data.csv acessando o ícone Arquivos no menu do canto esquerdo, navegando até a pasta que contenha o arquivo. Clique em abrir e ignore o aviso.
 6) Acesse o menu Ambiente de execução/Executar tudo
