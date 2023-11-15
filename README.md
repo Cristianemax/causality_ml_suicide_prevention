@@ -85,11 +85,12 @@ Passos para execução:
 3) Faça o login com sua conta google no navegador clicando em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/dee6386a-fb9b-4fdb-a73f-49161bd5cbe8) no canto superior direito.
    Será aberto Uma página contendo o código da aplicação.
                                                                 
-5) Acesse  ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/9a339cba-c7b0-45f3-b4da-e99000678daf), clique em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/925a5edd-eb04-4bf4-9e9e-d4a61404c2ab) navegue até a pasta que contenha o arquivo simulacao_contrafactual_novo_individuo.ipynb. Clique em abrir. Será aberto uma página contendo o código da aplicação.
-6) Clicando no ícone ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/d9fe2617-4b71-4c05-bde4-d30d1b1766f0) que aparece 
-no canto esquerdo, faça o upload do arquivo data.csv acessando o ícone Arquivos no menu do canto esquerdo, navegando até a pasta que contenha o arquivo. Clique em abrir e ignore o aviso.
-7) Acesse o menu Ambiente de execução/Executar tudo
-8) Entre com os dados de cada fator referente ao indivíduo em questão:
+5) Acesse  ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/9a339cba-c7b0-45f3-b4da-e99000678daf), clique em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/925a5edd-eb04-4bf4-9e9e-d4a61404c2ab) navegue até a pasta que contenha o arquivo simulacao_contrafactual_novo_individuo.ipynb. Clique em abrir.
+   Será aberto uma página contendo o código da aplicação.
+7) Clicando no ícone ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/737a8af9-06e8-445d-b088-3dcf1fa5604e)
+ que aparece no canto esquerdo, faça o upload do arquivo data.csv acessando o ícone Arquivos no menu do canto esquerdo, navegando até a pasta que contenha o arquivo. Clique em abrir e ignore o aviso.
+8) Acesse o menu Ambiente de execução/Executar tudo
+9) Entre com os dados de cada fator referente ao indivíduo em questão:
    
 	  Suicídio na família: Digite 1 para Sim e 0 para não.    
    
@@ -121,8 +122,8 @@ no canto esquerdo, faça o upload do arquivo data.csv acessando o ícone Arquivo
 
    	  Ansiedade: Digite um número de 0 a 4, sendo: 0=Ausente: Sem dificuldade; 1=Duvidoso ou trivial: Tensão subjetiva e irritabilidade; 2=Leve: Preocupação com 		  assuntos menores; 3=Moderado: Atitude apreensiva aparente na face ou na fala; 4=Grave: Medos expressos sem questionamento.
 
-9) Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo
-10) O último passo é fazer as análises contrafactuais simulando alterações em cada uma das features.
+10) Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo
+11) O último passo é fazer as análises contrafactuais simulando alterações em cada uma das features.
 Você pode alterar cada um dos 10 fatores e verificar se o nível de ideação suicida será sensibilizado com a mudança.
 
 Obs.: Caso necessite efetuar mais simulações, execute a última célula novamente. A alteração do valor do nível de ideação suicida em alguma simulação, pode significar que o indíviduo 
