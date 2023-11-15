@@ -5,10 +5,13 @@
 
 The alarming increase in the number of people affected by mental illness has become one of the main public health problems facing governments around the world.
 Suicide is among the 20 most common causes of death according to an assessment by the World Health Organization (Organization et al., 2019), surpassing malaria, breast cancer or homicide and in the last 20 years, there has been a 24% increase in cases.
-We used clinical classification data and identified possible causal factors that could establish relationships with suicidal ideation.
-To this end, we use causal inference and machine learning methods.
-The factors used for causal inference were: Sex, Marital Status, Type of Residence, Alcoholic, Drugs, Suicide in the Family, Depression in the Family, Alcoholic in the Family, Drugs in the Family, Neuro, Psychiatric, Able to enjoy things, Impact of your Family and friends, Able to make important decisions, Student, Insomnia, Anxiety, Loss of insights, Appetite, Weight loss, Somatic anxiety, Hypochondriasis, Feeling of guilt, Work and interests, Energy, Slow thought and speech, Agitation, Libido, OCD and age.
-After our research, the factors that emerged as possible causes that lead an individual to have suicidal ideation were: Suicide in the family, Drugs in the family, Able to make important decisions, Student, Hypochondriasis, Feelings of guilt, Work and interests and Energy.
+
+In order to assist in suicide prevention, we used clinical data from outpatients to identify possible causal factors that may establish relationships with suicidal ideation. To this end, we use causal inference and machine learning methods.
+
+The factors used for causal inference were: Sex, Marital Status, Type of Residence, Alcoholic, Drug Use, Suicide in the Family, Depression in the Family, History of alcohol use in the family, Drugs in the Family, Neurological Disease, Psychiatric Disease, Capable of enjoying things, Impact of your Family and friends, Able to make important decisions, Student, Insomnia, Anxiety, Loss of insights, Appetite, Weight loss, Somatic anxiety, Hypochondriasis, Feeling of Guilt, Work and interests, Energy, Slowness in thought and speech, Agitation, Libido, OCD and age.
+
+After our research, the factors that presented themselves as possible causes that lead an individual to have suicidal ideation were: Suicide in the family, Able to make important decisions, Student, Hypochondriasis, Feelings of guilt, Work and interests, Depression in the family, History of use of alcohol in the family, Able to enjoy things and Use of drugs.
+
 The objective of this project is to carry out counterfactual simulations to obtain the possible factors that influence a certain individual to have suicidal ideation.
 With it, health professionals who care for patients with suicidal ideation will be able to work with them more assertively, aiming to mitigate or even eliminate such ideation.
 
@@ -65,20 +68,15 @@ Steps for execution:
 O aumento alarmante do numero de pessoas afetadas por doenças mentais tornou-se um dos principais problemas de saúde pública enfrentado pelos governos em todo o mundo.
 O suicídio esta entre as 20 causas de morte mais comuns segundo avaliação da Organização Mundial da Saúde (Organization et al., 2019), superando malaria, câncer de mama 
 ou homicídio e nos últimos 20 anos, houve um aumento de 24% dos casos.
-Utilizamos dados de classificação clínica e identificamos os possíveis fatores causais que possam estabelecer relações com a ideação suicida.
-Para tanto, utilizamos métodos de inferência causal e aprendizado de maquina.
 
-Os fatores utilizados para inferência causal foram: Sexo, Estado Civil, Tipo de Residência, Alcoólatra, Droga, Suicídio na Família, Depressão na Família, 
-Alcoólatra Família, Droga na Família, Neuro, Psiquiátrica, Capaz de desfrutar das coisas, Impacto de sua Família e amigos, Capaz de tomar decisões importantes, 
-Estudante, Insônia, Ansiedade, Perda de insights, Apetite, Perda de Peso, Ansiedade somática, Hipocondriase, Sentimento de Culpa, Trabalho e interesses,
-Energia, Lentidão pensamento e fala, Agitação, Libido, TOC e idade.
+Com o objetivo de auxiliar na prevenção do suicídio, utilizamos dados clínicos de pacientes ambulatoriais para identificar os possíveis fatores causais que possam estabelecer relações com a ideação suicida. Para tanto, utilizamos métodos de inferência causal e aprendizado de maquina.
 
-Após nossa pesquisa, os fatores que se apresentaram como possíveis causas que levam um indivíduo a ter ideação suicida foram: Suicídio na família, Drogas na família,
-Capaz de tomar decisões importantes, Estudante, Hipocondriase, Sentimentos de culpa, Trabalho e interesses e Energia.
+Os fatores utilizados para inferência causal foram: Sexo, Estado Civil, Tipo de Residência, Alcoólatra, Udo de Drogas, Suicídio na Família, Depressão na Família, Histórico de uso de álcool na familia, Droga na Família, Doença Neurológica, Doença Psiquiátrica, Capaz de desfrutar das coisas, Impacto de sua Família e amigos, Capaz de tomar decisões importantes, Estudante, Insônia, Ansiedade, Perda de insights, Apetite, Perda de Peso, Ansiedade somática, Hipocondriase, Sentimento de Culpa, Trabalho e interesses, Energia, Lentidão no pensamento e na fala, Agitação, Libido, TOC e idade.
+
+Após nossa pesquisa, os fatores que se apresentaram como possíveis causas que levam um indivíduo a ter ideação suicida foram: Suicídio na família, Capaz de tomar decisões importantes, Estudante, Hipocondriase, Sentimentos de culpa, Trabalho e interesses, Depressão na familia, Histórico de uso de álcool na familia, Capaz de desfrutar das coisas e Uso de drogas.
 
 O objetivo desse projeto é fazer simulações contrafctuais para obter os possíveis fatores que influenciam determinado indivíduo a ter ideação suicida.
-De posse dele, os profissionais da área de saúde que atendem pacientes com ideação suicida, poderão trabalhar com os mesmos de forma mais assertiva objetivando atenuar ou até eliminar
-tal ideação.
+De posse dele, os profissionais da área de saúde que atendem pacientes com ideação suicida, poderão trabalhar com os mesmos de forma mais assertiva objetivando atenuar ou até eliminar tal ideação.
 
 Passos para execução:
 
@@ -90,9 +88,7 @@ Passos para execução:
 6) Acesse o menu Ambiente de execução/Executar tudo
 7) Entre com os dados de cada fator referente ao indivíduo em questão:
    
-	  Suicídio na família: Digite 1 para Sim e 0 para não.
-   
-	  Histórico de uso de drogas na família: Digite 1 para Sim e 0 para não.
+	  Suicídio na família: Digite 1 para Sim e 0 para não.    
    
 	  Capaz de tomar decisões importantes: Digite um número de 1 a 5, sendo: 1=Concordo totalmente; 2=Concordo; 3=Neutro; 4=Discordo; 5=Discordo totalmente.
    
@@ -124,7 +120,7 @@ Passos para execução:
 
 9) Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo
 10) O último passo é fazer as análises contrafactuais simulando alterações em cada uma das features.
-Você pode alterar cada um dos 11 fatores e verificar se o nível de ideação suicida será sensibilizado com a mudança.
+Você pode alterar cada um dos 10 fatores e verificar se o nível de ideação suicida será sensibilizado com a mudança.
 
 Obs.: Caso necessite efetuar mais simulações, execute a última célula novamente. A alteração do valor do nível de ideação suicida em alguma simulação, pode significar que o indíviduo 
       é sensível ao fator da simulação em questão. 
