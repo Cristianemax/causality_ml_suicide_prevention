@@ -135,11 +135,11 @@ Passos para execução:
 13) Vá descendo a barra de rolagem que está no canto direito, acompanhando a execussão da aplicação. Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo de acordo com os
     valores inseridos no passo 11 ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/0fc12243-ac47-4c04-a22b-1a4497e3fbf7)
 
-15) O último passo é fazer as análises contrafactuais* simulando alterações em cada um dos fatores.
+15) O último passo é fazer as análises contrafactuais** simulando alterações em cada um dos fatores.
 Você pode alterar cada um dos 10 fatores e verificar se o nível de ideação suicida será sensibilizado com a mudança.
 
 Obs.: Caso necessite efetuar mais simulações, execute a última célula novamente clicando no ícone ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/7d9621c7-6017-495b-bbf8-545a5334fd60)
 . A alteração do valor do nível de ideação suicida em alguma simulação, pode significar que o indíviduo 
       é sensível ao fator da simulação em questão. 
 
-* O pensamento contrafactual é um tipo de pensamento imaginativo caracterizado pela simulação mental de alternativas para eventos passados visando alterar a sequência de eventos para que se chegue a um desfecho diferente daquele que de fato ocorreu. Efetuando simulações nos fatores que se apresentaram como possíveis causas da ideação suicida, é possível chegar a conclusão de qual fator seria importante trabalhar prioritariamente em cada individuo.
+** O pensamento contrafactual é um tipo de pensamento imaginativo caracterizado pela simulação mental de alternativas para eventos passados visando alterar a sequência de eventos para que se chegue a um desfecho diferente daquele que de fato ocorreu. Efetuando simulações nos fatores que se apresentaram como possíveis causas da ideação suicida, é possível chegar a conclusão de qual fator seria importante trabalhar prioritariamente em cada individuo.
