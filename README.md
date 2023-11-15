@@ -97,6 +97,7 @@ Passos para execução:
  clique em abrir para fazer o upload (ignore o aviso - caso apareça).
    
 9) Acesse o menu Ambiente de execução e selecione Executar tudo
+    
     ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/220672a2-6fd1-4ee3-8eba-51e5f3cac072)
 
 11) Entre com os dados de cada fator referente ao indivíduo em questão:
