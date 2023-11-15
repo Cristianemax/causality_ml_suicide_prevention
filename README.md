@@ -137,5 +137,5 @@ Passos para execução:
 15) O último passo é fazer as análises contrafactuais simulando alterações em cada um dos fatores.
 Você pode alterar cada um dos 10 fatores e verificar se o nível de ideação suicida será sensibilizado com a mudança.
 
-Obs.: Caso necessite efetuar mais simulações, execute a última célula novamente. A alteração do valor do nível de ideação suicida em alguma simulação, pode significar que o indíviduo 
+Obs.: Caso necessite efetuar mais simulações, execute a última célula novamente clicando no ícone ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/04fe5832-c65b-4afa-8957-90681c50ca66). A alteração do valor do nível de ideação suicida em alguma simulação, pode significar que o indíviduo 
       é sensível ao fator da simulação em questão. 
