@@ -83,9 +83,10 @@ Passos para execução:
 
 2) Abra o link do google colab https://colab.research.google.com/ em um navegador (ex: google chrome)  
 3) Faça o login com sua conta google no navegador clicando em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/dee6386a-fb9b-4fdb-a73f-49161bd5cbe8) no canto superior direito.
-   Será aberto Uma página contendo o código da aplicação.
+   Será aberto uma página contendo o código da aplicação.
                                                                 
-5) Acesse  ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/9a339cba-c7b0-45f3-b4da-e99000678daf), clique em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/925a5edd-eb04-4bf4-9e9e-d4a61404c2ab) navegue até a pasta que contenha o arquivo simulacao_contrafactual_novo_individuo.ipynb. Clique em abrir.
+5) Acesse  ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/9a339cba-c7b0-45f3-b4da-e99000678daf), clique em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/925a5edd-eb04-4bf4-9e9e-d4a61404c2ab)
+   navegue até a pasta que contenha o arquivo simulacao_contrafactual_novo_individuo.ipynb. Clique em abrir.
    Será aberto uma página contendo o código da aplicação.
 7) Clique no ícone ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/737a8af9-06e8-445d-b088-3dcf1fa5604e)
  que aparece no canto esquerdo.
@@ -93,7 +94,7 @@ Passos para execução:
    Assim que o menu Arquivos aparecer, clique no ícone "Fazer upload para o armazenamento da sessão" ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/d0567cb7-755e-4ea7-bc46-54f789d53f51)
 
  navegue até a pasta em que extraiu os arquivos no passo 1, selecione o arquivo data.csv ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/02f35886-4982-46db-a0b9-7ae5ce9f1810)
-   clique em abrir para fazer o upload (ignore o aviso - caso apareça).
+ clique em abrir para fazer o upload (ignore o aviso - caso apareça).
    
 9) Acesse o menu Ambiente de execução e selecione Executar tudo
     ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/220672a2-6fd1-4ee3-8eba-51e5f3cac072)
@@ -134,9 +135,11 @@ Passos para execução:
 13) Vá descendo a barra de rolagem que está no canto direito, acompanhando a execussão da aplicação. Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo de acordo com os
     valores inseridos no passo 11 ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/0fc12243-ac47-4c04-a22b-1a4497e3fbf7)
 
-15) O último passo é fazer as análises contrafactuais simulando alterações em cada um dos fatores.
+15) O último passo é fazer as análises contrafactuais* simulando alterações em cada um dos fatores.
 Você pode alterar cada um dos 10 fatores e verificar se o nível de ideação suicida será sensibilizado com a mudança.
 
 Obs.: Caso necessite efetuar mais simulações, execute a última célula novamente clicando no ícone ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/7d9621c7-6017-495b-bbf8-545a5334fd60)
 . A alteração do valor do nível de ideação suicida em alguma simulação, pode significar que o indíviduo 
       é sensível ao fator da simulação em questão. 
+
+* O pensamento contrafactual é um tipo de pensamento imaginativo caracterizado pela simulação mental de alternativas para eventos passados visando alterar a sequência de eventos para que se chegue a um desfecho diferente daquele que de fato ocorreu. Efetuando simulações nos fatores que se apresentaram como possíveis causas da ideação suicida, é possível chegar a conclusão de qual fator seria importante trabalhar prioritariamente em cada individuo.
