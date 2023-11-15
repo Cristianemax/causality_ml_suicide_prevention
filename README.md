@@ -79,11 +79,12 @@ De posse do projeto, os profissionais da área de saúde que atendem pacientes c
 
 Passos para execução:
 
-1) No cantyo superior direito desta página, cliquem em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/77bf57af-2450-4075-a64a-6b40da37bfc0) e Selecione a opção "Download ZIP". Extraia o arquivo "ZIP" em uma pasta.
+1) No canto superior direito desta página, cliquem em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/77bf57af-2450-4075-a64a-6b40da37bfc0) e Selecione a opção "Download ZIP". Extraia o arquivo "ZIP" em uma pasta clicando com o botão direito em cima dele e posteiormente em "Extrair tudo" ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/00307deb-2619-480a-8b29-493a1006585c)
+
 2) Abra o link do google colab https://colab.research.google.com/ em um navegador (ex: google chrome)  
 3) Faça o login com sua conta google no navegador clicando em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/dee6386a-fb9b-4fdb-a73f-49161bd5cbe8) no canto superior direito.
                                                                 
-4) Acesse Upload/Procurar e navegue até a pasta que contenha o arquivo counterfactural_inference_new_individual.ipynb. Clique em abrir
+4) Acesse  ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/9a339cba-c7b0-45f3-b4da-e99000678daf), clique em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/925a5edd-eb04-4bf4-9e9e-d4a61404c2ab) navegue até a pasta que contenha o arquivo counterfactural_inference_new_individual.ipynb. Clique em abrir
 5) Faça o upload do arquivo data.csv acessando o ícone Arquivos no menu do canto esquerdo, navegando até a pasta que contenha o arquivo. Clique em abrir e ignore o aviso.
 6) Acesse o menu Ambiente de execução/Executar tudo
 7) Entre com os dados de cada fator referente ao indivíduo em questão:
