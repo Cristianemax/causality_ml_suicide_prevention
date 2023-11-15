@@ -88,10 +88,12 @@ Passos para execução:
 5) Acesse  ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/9a339cba-c7b0-45f3-b4da-e99000678daf), clique em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/925a5edd-eb04-4bf4-9e9e-d4a61404c2ab) navegue até a pasta que contenha o arquivo simulacao_contrafactual_novo_individuo.ipynb. Clique em abrir.
    Será aberto uma página contendo o código da aplicação.
 7) Clique no ícone ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/737a8af9-06e8-445d-b088-3dcf1fa5604e)
- que aparece no canto esquerdo. Assim que o menu Arquivos aparecer, clique no ícone "Fazer upload para o armazenamento da sessão" ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/a4912f1c-f12d-4381-befd-253d04789d13)
+ que aparece no canto esquerdo.
+
+Assim que o menu Arquivos aparecer, clique no ícone "Fazer upload para o armazenamento da sessão" ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/a4912f1c-f12d-4381-befd-253d04789d13)
  navegue até a pasta em que extraiu os arquivos no passo 1, selecione o arquivo data.csv, clique em abrir para fazer o upload Clique e ignore o aviso.
-8) Acesse o menu Ambiente de execução/Executar tudo
-9) Entre com os dados de cada fator referente ao indivíduo em questão:
+9) Acesse o menu Ambiente de execução/Executar tudo
+10) Entre com os dados de cada fator referente ao indivíduo em questão:
    
 	  Suicídio na família: Digite 1 para Sim e 0 para não.    
    
@@ -123,8 +125,8 @@ Passos para execução:
 
    	  Ansiedade: Digite um número de 0 a 4, sendo: 0=Ausente: Sem dificuldade; 1=Duvidoso ou trivial: Tensão subjetiva e irritabilidade; 2=Leve: Preocupação com 		  assuntos menores; 3=Moderado: Atitude apreensiva aparente na face ou na fala; 4=Grave: Medos expressos sem questionamento.
 
-10) Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo
-11) O último passo é fazer as análises contrafactuais simulando alterações em cada uma das features.
+11) Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo
+12) O último passo é fazer as análises contrafactuais simulando alterações em cada uma das features.
 Você pode alterar cada um dos 10 fatores e verificar se o nível de ideação suicida será sensibilizado com a mudança.
 
 Obs.: Caso necessite efetuar mais simulações, execute a última célula novamente. A alteração do valor do nível de ideação suicida em alguma simulação, pode significar que o indíviduo 
