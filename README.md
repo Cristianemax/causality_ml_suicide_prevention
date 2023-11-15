@@ -100,38 +100,40 @@ Passos para execução:
 
 11) Entre com os dados de cada fator referente ao indivíduo em questão:
    
-	  Suicídio na família: Digite 1 para Sim e 0 para não.    
+	  Suicídio na família: Digite 1 para Sim e 0 para não. Clique em <Enter>    
    
-	  Capaz de tomar decisões importantes: Digite um número de 1 a 5, sendo: 1=Concordo totalmente; 2=Concordo; 3=Neutro; 4=Discordo; 5=Discordo totalmente.
+	  Capaz de tomar decisões importantes: Digite um número de 1 a 5, sendo: 1=Concordo totalmente; 2=Concordo; 3=Neutro; 4=Discordo; 5=Discordo totalmente. Clique em <Enter>
    
-	  Estudante: Digite um número de 0 a 2, sendo: 0=Não; 1=Sim; 2=Meio período.
+	  Estudante: Digite um número de 0 a 2, sendo: 0=Não; 1=Sim; 2=Meio período. Clique em <Enter>
    
-	  Hipocondriase: Digite um número de 0 a 4, sendo: 0=Ausente; 1=Leve; 2=Moderado; 3=Moderadamente grave; 4=Grave.
+	  Hipocondriase: Digite um número de 0 a 4, sendo: 0=Ausente; 1=Leve; 2=Moderado; 3=Moderadamente grave; 4=Grave. Clique em <Enter>
    
 	  Sentimentos de culpa: Digite um número de 0 a 4, sendo: 0=Ausente; 1=Duvidoso ou trivial: Autocensura, sente que decepcionou as pessoas; 2=Leve: Idéias de
           culpa ou ruminação sobre erros passados ou atos pecaminosos; 3=Moderado: A doença atual é uma punição. Delírios de culpa; 4=Grave: Ouve vozes acusatórias ou 
-          denunciatórias e/ou experimenta alucinações visuais ameaçadoras.
+          denunciatórias e/ou experimenta alucinações visuais ameaçadoras. Clique em <Enter>
    
 	  Trabalho e interesses: Digite um número de 0 a 4, sendo:0=Ausente: Sem dificuldade; 1=Duvidoso ou trivial: Pensamentos e sentimentos de incapacidade, cansaço
           ou fraqueza relacionados às atividades; trabalho ou hobbies; 2=Leve: Perda de interesse pela atividade; hobbies ou trabalho – relatados diretamente pelo 
           paciente, ou indiretos em apatia, indecisão e vacilação (sente que precisa se esforçar para trabalhar ou realizar atividades); 3=Moderado: Diminuição do tempo 
-          real gasto nas atividades ou diminuição da produtividade; 4=Grave: Deixou de trabalhar por doença atual.
+          real gasto nas atividades ou diminuição da produtividade; 4=Grave: Deixou de trabalhar por doença atual. Clique em <Enter>
    
-	  Depressão na familia:  Digite 1 para Sim e 0 para não.
+	  Depressão na familia:  Digite 1 para Sim e 0 para não. Clique em <Enter>
 
-	  Histórico de uso de álcool na familia:  Digite 1 para Sim e 0 para não.
+	  Histórico de uso de álcool na familia:  Digite 1 para Sim e 0 para não. Clique em <Enter>
 
-   	  Capaz de desfrutar das coisas: Digite um número de 1 a 5, sendo: 1=Concordo totalmente; 2=Concordo; 3=Neutro; 4=Discordo; 5=Discordo totalmente.
+   	  Capaz de desfrutar das coisas: Digite um número de 1 a 5, sendo: 1=Concordo totalmente; 2=Concordo; 3=Neutro; 4=Discordo; 5=Discordo totalmente. Clique em <Enter>
 
-   	  Uso de drogas: Digite um número de 0 a 2, sendo: 0=Nenhum verificado; 1=Abuso; 2=Dependente.
+   	  Uso de drogas: Digite um número de 0 a 2, sendo: 0=Nenhum verificado; 1=Abuso; 2=Dependente. Clique em <Enter>
 
    	  Suicidio: Digite um número de 0 a 4, sendo: : 0=Ausente; 1=Sente que a vida está vazia; 2=Desejos de morte; 3=Pensamentos suicidas ativos; 4=Tentativa grave
-          de suicídio.
+          de suicídio. Clique em <Enter>
 
-   	  Ansiedade: Digite um número de 0 a 4, sendo: 0=Ausente: Sem dificuldade; 1=Duvidoso ou trivial: Tensão subjetiva e irritabilidade; 2=Leve: Preocupação com 		  assuntos menores; 3=Moderado: Atitude apreensiva aparente na face ou na fala; 4=Grave: Medos expressos sem questionamento.
+   	  Ansiedade: Digite um número de 0 a 4, sendo: 0=Ausente: Sem dificuldade; 1=Duvidoso ou trivial: Tensão subjetiva e irritabilidade; 2=Leve: Preocupação com
+          assuntos menores; 3=Moderado: Atitude apreensiva aparente na face ou na fala; 4=Grave: Medos expressos sem questionamento. Clique em <Enter>
 
-12) Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo
-13) O último passo é fazer as análises contrafactuais simulando alterações em cada uma das features.
+13) Vá descendo a barra de rolagem que está no canto direito, acompanhando a execussão da aplicação. Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/0fc12243-ac47-4c04-a22b-1a4497e3fbf7)
+
+14) O último passo é fazer as análises contrafactuais simulando alterações em cada um dos fatores.
 Você pode alterar cada um dos 10 fatores e verificar se o nível de ideação suicida será sensibilizado com a mudança.
 
 Obs.: Caso necessite efetuar mais simulações, execute a última célula novamente. A alteração do valor do nível de ideação suicida em alguma simulação, pode significar que o indíviduo 
