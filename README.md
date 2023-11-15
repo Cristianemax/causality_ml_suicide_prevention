@@ -65,24 +65,23 @@ Steps for execution:
   sensitive to the simulation factor in question.
 
 ## Prevenção do suicídio usando causalidade em aprendizado de máquina
-O aumento alarmante do numero de pessoas afetadas por doenças mentais tornou-se um dos principais problemas de saúde pública enfrentado pelos governos em todo o mundo.
-O suicídio esta entre as 20 causas de morte mais comuns segundo avaliação da Organização Mundial da Saúde (Organization et al., 2019), superando malaria, câncer de mama 
-ou homicídio e nos últimos 20 anos, houve um aumento de 24% dos casos.
+O aumento alarmante do número de pessoas afetadas por doenças mentais tornou-se um dos principais problemas de saúde pública enfrentado pelos governos em todo o mundo.
+O suicídio esta entre as 20 causas de morte mais comuns segundo avaliação da Organização Mundial da Saúde, superando malária, câncer de mama ou homicídio, e nos últimos 20 anos houve um aumento de 24% dos casos (Organization et al., 2019).
 
-Com o objetivo de auxiliar na prevenção do suicídio, utilizamos dados clínicos de pacientes ambulatoriais para identificar os possíveis fatores causais que possam estabelecer relações com a ideação suicida. Para tanto, utilizamos métodos de inferência causal e aprendizado de maquina.
+Com o objetivo de auxiliar na prevenção do suicídio, utilizamos dados clínicos de pacientes ambulatoriais para identificar os possíveis fatores causais que possam estabelecer relações com a ideação suicida. Para tanto, utilizamos métodos de inferência causal e aprendizado de máquina.
 
-Os fatores utilizados para inferência causal foram: Sexo, Estado Civil, Tipo de Residência, Alcoólatra, Udo de Drogas, Suicídio na Família, Depressão na Família, Histórico de uso de álcool na familia, Droga na Família, Doença Neurológica, Doença Psiquiátrica, Capaz de desfrutar das coisas, Impacto de sua Família e amigos, Capaz de tomar decisões importantes, Estudante, Insônia, Ansiedade, Perda de insights, Apetite, Perda de Peso, Ansiedade somática, Hipocondriase, Sentimento de Culpa, Trabalho e interesses, Energia, Lentidão no pensamento e na fala, Agitação, Libido, TOC e idade.
+Os fatores utilizados para inferência causal foram: Sexo, Estado Civil, Tipo de Residência, Uso de Álcool, Udo de Drogas, Suicídio na Família, Depressão na Família, Histórico de uso de álcool na familia, Droga na Família, Doença Neurológica, Doença Psiquiátrica, Capaz de desfrutar das coisas, Impacto de sua Família e amigos, Capaz de tomar decisões importantes, Estudante, Insônia, Ansiedade, Perda de insights, Apetite, Perda de Peso, Ansiedade somática, Hipocondriase, Sentimento de Culpa, Trabalho e interesses, Energia, Lentidão no pensamento e na fala, Agitação, Libido, TOC e idade.
 
 Após nossa pesquisa, os fatores que se apresentaram como possíveis causas que levam um indivíduo a ter ideação suicida foram: Suicídio na família, Capaz de tomar decisões importantes, Estudante, Hipocondriase, Sentimentos de culpa, Trabalho e interesses, Depressão na familia, Histórico de uso de álcool na familia, Capaz de desfrutar das coisas e Uso de drogas.
 
 O objetivo desse projeto é fazer simulações contrafctuais para obter os possíveis fatores que influenciam determinado indivíduo a ter ideação suicida.
-De posse dele, os profissionais da área de saúde que atendem pacientes com ideação suicida, poderão trabalhar com os mesmos de forma mais assertiva objetivando atenuar ou até eliminar tal ideação.
+De posse do projeto, os profissionais da área de saúde que atendem pacientes com ideação suicida, poderão trabalhar com os indivíduos de forma mais assertiva objetivando atenuar ou até eliminar tal ideação.
 
 Passos para execução:
 
-1) Faça o download dos arquivos: dados.csv e counterfactural_inference_new_individual.ipynb
-2) Abra o link do google colab em um browser https://colab.research.google.com/   
-3) Faça o login com sua conta google                                                                 
+1) No cantyo superior direito desta página, cliquem em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/77bf57af-2450-4075-a64a-6b40da37bfc0) e Selecione a opção "Download ZIP". Extraia o arquivo "ZIP" em uma pasta.
+2) Abra o link do google colab https://colab.research.google.com/ em um navegador (ex: google chrome)  
+3) Faça o login com sua conta google no navegador                                                                 
 4) Acesse Upload/Procurar e navegue até a pasta que contenha o arquivo counterfactural_inference_new_individual.ipynb. Clique em abrir
 5) Faça o upload do arquivo data.csv acessando o ícone Arquivos no menu do canto esquerdo, navegando até a pasta que contenha o arquivo. Clique em abrir e ignore o aviso.
 6) Acesse o menu Ambiente de execução/Executar tudo
