@@ -106,18 +106,17 @@ Passos para execução:
           real gasto nas atividades ou diminuição da produtividade; 4=Grave: Deixou de trabalhar por doença atual.
    
 	  Depressão na familia:  Digite 1 para Sim e 0 para não.
-   
-          Histórico de uso de álcool na familia:  Digite 1 para Sim e 0 para não.
-   
-          Capaz de desfrutar das coisas: Digite um número de 1 a 5, sendo: 1=Concordo totalmente; 2=Concordo; 3=Neutro; 4=Discordo; 5=Discordo totalmente.
 
-	  Uso de drogas: Digite um número de 0 a 2, sendo: 0=Nenhum verificado; 1=Abuso; 2=Dependente.
-   
-	  Suicidio: Digite um número de 0 a 4, sendo: : 0=Ausente; 1=Sente que a vida está vazia; 2=Desejos de morte; 3=Pensamentos suicidas ativos; 4=Tentativa grave
+	  Histórico de uso de álcool na familia:  Digite 1 para Sim e 0 para não.
+
+   	  Capaz de desfrutar das coisas: Digite um número de 1 a 5, sendo: 1=Concordo totalmente; 2=Concordo; 3=Neutro; 4=Discordo; 5=Discordo totalmente.
+
+   	  Uso de drogas: Digite um número de 0 a 2, sendo: 0=Nenhum verificado; 1=Abuso; 2=Dependente.
+
+   	  Suicidio: Digite um número de 0 a 4, sendo: : 0=Ausente; 1=Sente que a vida está vazia; 2=Desejos de morte; 3=Pensamentos suicidas ativos; 4=Tentativa grave
           de suicídio.
-   
-	  Ansiedade: Digite um número de 0 a 4, sendo: 0=Ausente: Sem dificuldade; 1=Duvidoso ou trivial: Tensão subjetiva e irritabilidade; 2=Leve: Preocupação com 
-          assuntos menores; 3=Moderado: Atitude apreensiva aparente na face ou na fala; 4=Grave: Medos expressos sem questionamento.
+
+   	  Ansiedade: Digite um número de 0 a 4, sendo: 0=Ausente: Sem dificuldade; 1=Duvidoso ou trivial: Tensão subjetiva e irritabilidade; 2=Leve: Preocupação com 		  assuntos menores; 3=Moderado: Atitude apreensiva aparente na face ou na fala; 4=Grave: Medos expressos sem questionamento.
 
 9) Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo
 10) O último passo é fazer as análises contrafactuais simulando alterações em cada uma das features.
