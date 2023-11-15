@@ -82,7 +82,7 @@ Passos para execução:
 1) No canto superior direito desta página, cliquem em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/77bf57af-2450-4075-a64a-6b40da37bfc0) e Selecione a opção "Download ZIP". Extraia o arquivo "ZIP" em uma pasta clicando com o botão direito em cima dele e posteriormente em "Extrair tudo" ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/00307deb-2619-480a-8b29-493a1006585c)
 
 2) Abra o link do google colab https://colab.research.google.com/ em um navegador (ex: google chrome)  
-3) Faça o login com sua conta google no navegador clicando em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/dee6386a-fb9b-4fdb-a73f-49161bd5cbe8) no canto superior direito.
+3) Faça o login com sua conta google no navegador clicando em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/dee6386a-fb9b-4fdb-a73f-49161bd5cbe8) no canto superior direito. Será aberto Uma página contendo o código da aplicação.
                                                                 
 4) Acesse  ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/9a339cba-c7b0-45f3-b4da-e99000678daf), clique em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/925a5edd-eb04-4bf4-9e9e-d4a61404c2ab) navegue até a pasta que contenha o arquivo simulacao_contrafactual_novo_individuo.ipynb. Clique em abrir
 5) Clicando no ícone ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/d9fe2617-4b71-4c05-bde4-d30d1b1766f0) que aparece 
