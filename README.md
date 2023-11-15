@@ -88,7 +88,8 @@ Passos para execução:
 5) Acesse  ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/9a339cba-c7b0-45f3-b4da-e99000678daf), clique em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/925a5edd-eb04-4bf4-9e9e-d4a61404c2ab) navegue até a pasta que contenha o arquivo simulacao_contrafactual_novo_individuo.ipynb. Clique em abrir.
    Será aberto uma página contendo o código da aplicação.
 7) Clique no ícone ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/737a8af9-06e8-445d-b088-3dcf1fa5604e)
- que aparece no canto esquerdo. Assim que o menu Arquivos aparecer, clique em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/e53225e7-60cd-4698-b3ab-9d54e582ceaa), navegue até a pasta em que extraiu os arquivos no passo 1 e faça o upload do arquivo data.csv. Clique em abrir e ignore o aviso.
+ que aparece no canto esquerdo. Assim que o menu Arquivos aparecer, clique em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/a4912f1c-f12d-4381-befd-253d04789d13)
+, navegue até a pasta em que extraiu os arquivos no passo 1 e faça o upload do arquivo data.csv. Clique em abrir e ignore o aviso.
 8) Acesse o menu Ambiente de execução/Executar tudo
 9) Entre com os dados de cada fator referente ao indivíduo em questão:
    
