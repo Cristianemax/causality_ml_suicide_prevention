@@ -95,8 +95,10 @@ Passos para execução:
  navegue até a pasta em que extraiu os arquivos no passo 1, selecione o arquivo data.csv ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/02f35886-4982-46db-a0b9-7ae5ce9f1810)
    clique em abrir para fazer o upload (ignore o aviso - caso apareça).
    
-9) Acesse o menu Ambiente de execução/Executar tudo
-10) Entre com os dados de cada fator referente ao indivíduo em questão:
+9) Acesse o menu Ambiente de execução e selecione Executar tudo
+    ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/220672a2-6fd1-4ee3-8eba-51e5f3cac072)
+
+11) Entre com os dados de cada fator referente ao indivíduo em questão:
    
 	  Suicídio na família: Digite 1 para Sim e 0 para não.    
    
@@ -128,8 +130,8 @@ Passos para execução:
 
    	  Ansiedade: Digite um número de 0 a 4, sendo: 0=Ausente: Sem dificuldade; 1=Duvidoso ou trivial: Tensão subjetiva e irritabilidade; 2=Leve: Preocupação com 		  assuntos menores; 3=Moderado: Atitude apreensiva aparente na face ou na fala; 4=Grave: Medos expressos sem questionamento.
 
-11) Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo
-12) O último passo é fazer as análises contrafactuais simulando alterações em cada uma das features.
+12) Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo
+13) O último passo é fazer as análises contrafactuais simulando alterações em cada uma das features.
 Você pode alterar cada um dos 10 fatores e verificar se o nível de ideação suicida será sensibilizado com a mudança.
 
 Obs.: Caso necessite efetuar mais simulações, execute a última célula novamente. A alteração do valor do nível de ideação suicida em alguma simulação, pode significar que o indíviduo 
