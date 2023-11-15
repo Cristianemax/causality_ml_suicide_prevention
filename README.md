@@ -90,7 +90,8 @@ Passos para execução:
 7) Clique no ícone ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/737a8af9-06e8-445d-b088-3dcf1fa5604e)
  que aparece no canto esquerdo.
 
-Assim que o menu Arquivos aparecer, clique no ícone "Fazer upload para o armazenamento da sessão" ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/a4912f1c-f12d-4381-befd-253d04789d13)
+Assim que o menu Arquivos aparecer, clique no ícone "Fazer upload para o armazenamento da sessão" ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/d0567cb7-755e-4ea7-bc46-54f789d53f51)
+
  navegue até a pasta em que extraiu os arquivos no passo 1, selecione o arquivo data.csv, clique em abrir para fazer o upload Clique e ignore o aviso.
 9) Acesse o menu Ambiente de execução/Executar tudo
 10) Entre com os dados de cada fator referente ao indivíduo em questão:
