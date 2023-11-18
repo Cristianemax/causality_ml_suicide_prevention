@@ -20,23 +20,24 @@ Steps for execution:
 1) In the top right corner of this page, click on ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/8ed45da0-4fa4-46b9-ab85-2c44e538d0d8)
  and select the "Download ZIP" option![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/870de6a2-bffd-42e9-b8f4-e1a6535fb066)
 
-2) Go to the folder where the file was saved (probably Downloads). Extract the "ZIP" file into a folder by right-clicking on it and then clicking "Extract all" ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/00307deb-2619-480a-8b29-493a1006585c)
+2) Go to the folder where the file was saved (probably Downloads). Extract the "ZIP" file into a folder by right-clicking on it and then clicking "Extract all"
+    ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/00307deb-2619-480a-8b29-493a1006585c)
 
-3) Open the google colab link in a browser https://colab.research.google.com/ (example: google chrome)
-4) Log in with your Google account clicking ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/5a95ae3e-3052-46f8-b3bc-ca5b693e845c)
+4) Open the google colab link in a browser https://colab.research.google.com/ (example: google chrome)
+5) Log in with your Google account clicking ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/5a95ae3e-3052-46f8-b3bc-ca5b693e845c)
 at the top right corner. A page containing the application code will open.
-5) Access ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/ccea030f-4eaf-404d-89d2-b6ce75214255)
-   click in ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/ef711485-4cac-48a6-ae64-ec9eaf15cc38)
+6) Access  ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/ccea030f-4eaf-404d-89d2-b6ce75214255) 
+   click in  ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/ef711485-4cac-48a6-ae64-ec9eaf15cc38) 
    Navigate to the folder containing the ounterfactural_inference_new_individual.ipynb file. Click open. A page containing the application code will open.
 
-6) Click on the icon ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/b068dab9-6b5d-4b64-938f-68b25ffccf7b)
+7) Click on the icon ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/b068dab9-6b5d-4b64-938f-68b25ffccf7b)
 that appears in the left corner.
    Once the Files menu appears, click the "Upload to session storage" icon ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/9e24227a-370f-4871-8746-a48e1f7925f2)
    navigate to the folder where you extracted the files in step 1, select the data.csv file
 (https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/02f35886-4982-46db-a0b9-7ae5ce9f1810)
    click open to upload (ignore the warning - if it appears).
 
-7) Go to the Run environment menu and select Run all
+8) Go to the Run environment menu and select Run all
    ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/7baf2dc7-9a2e-4e86-9589-fdca735d1d55)
 
 10) Enter data for each factor relating to the individual in question:
