@@ -17,13 +17,16 @@ With it, health professionals who care for patients with suicidal ideation will 
 
 Steps for execution:
 
-1) Download the files: dados.csv and counterfactural_inference_new_individual.ipynb
-2) Open the google colab link in a browser https://colab.research.google.com/
-3) Log in with your Google account
-4) Go to Upload/Browse and navigate to the folder containing the counterfactural_inference_new_individual.ipynb file. Click open
-5) Upload the data.csv file by accessing the Files icon in the left corner menu, navigating to the folder containing the file. Click open and ignore the warning.
-6) Access the Run environment/Run all menu
-7) Enter data for each factor relating to the individual in question:
+1) In the top right corner of this page, click on ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/8ed45da0-4fa4-46b9-ab85-2c44e538d0d8)
+ and select the "Download ZIP" option. Extract the "ZIP" file into a folder by right-clicking on it and then clicking "Extract all"
+1) 
+2) Download the files: dados.csv and counterfactural_inference_new_individual.ipynb
+3) Open the google colab link in a browser https://colab.research.google.com/
+4) Log in with your Google account
+5) Go to Upload/Browse and navigate to the folder containing the counterfactural_inference_new_individual.ipynb file. Click open
+6) Upload the data.csv file by accessing the Files icon in the left corner menu, navigating to the folder containing the file. Click open and ignore the warning.
+7) Access the Run environment/Run all menu
+8) Enter data for each factor relating to the individual in question:
    
   	Suicide in the family: Enter 1 for Yes and 0 for No.
   
@@ -41,7 +44,7 @@ Steps for execution:
   
   	Work and interests: Enter a number from 0 to 4, where: 0=Absent: No difficulty; 1=Doubtful or trivial: Thoughts and feelings of incapacity, tiredness or weakness related
         to activities; work or hobbies; 2=Mild: Loss of interest in the activity; hobbies or work – reported directly by the patient, or indirectly in apathy, indecision and
-        vacillation (feeling that they need to make an effort to work or carry out activities); 3=Moderate: Decrease in real time spent on activities or decrease in productivity;
+        vacillation (feeling like you need to make an effort to work or carry out activities); 3=Moderate: Decrease in real time spent on activities or decrease in productivity;
         4=Serious: Stopped working due to current illness.
 
   	Depression in the family: Enter 1 for Yes and 0 for No.
@@ -58,11 +61,14 @@ Steps for execution:
         3=Moderate: Apprehensive attitude apparent on face or speech; 4=Severe: Fears expressed without questioning.
 
 9) After a few minutes, the value with the level of suicidal ideation predicted for the individual will be displayed
-10) The last step is to carry out counterfactual analyzes simulating changes in each of the features.
-  You can change each of the 10 factors to see if the level of suicidal ideation will be raised with the change.
+10) The last step is to carry out counterfactual** analyzes simulating changes in each of the factors. You can change each of the 10 factors and see if the level of suicidal ideation will be raised with the change.
   
-  Note: If you need to perform more simulations, run the last cell again. Changing the value of the level of suicidal ideation in a simulation may be that the individual is 
-  sensitive to the simulation factor in question.
+  Note: Note: If you need to perform more simulations, run the last cell again by clicking on the icon ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/247562ea-7670-4f6b-84ca-db5fd4d5a582)
+  A change in the value of the level of suicidal ideation in a simulation may mean that the individual is sensitive to the factor in question.
+
+  ** Counterfactual thinking is a type of imaginative thinking characterized by the mental simulation of alternatives to past events with the aim of altering the sequence 
+  of events so that a different outcome is reached than the one that actually occurred. By carrying out simulations on the factors that presented themselves as possible 
+  causes of suicidal ideation, it is possible to conclude which factor would be important to work on as a priority in each individual.
 
 ## Prevenção do suicídio usando causalidade em aprendizado de máquina
 O aumento alarmante do número de pessoas afetadas por doenças mentais tornou-se um dos principais problemas de saúde pública enfrentado pelos governos em todo o mundo.
