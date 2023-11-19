@@ -33,7 +33,7 @@ at the top right corner. A page containing the application code will open.
    
    Navigate to the folder containing the ounterfactural_inference_new_individual.ipynb file. Click open. A page containing the application code will open.
 
-7) Click on the icon ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/b068dab9-6b5d-4b64-938f-68b25ffccf7b)
+6) Click on the  ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/b068dab9-6b5d-4b64-938f-68b25ffccf7b)
 that appears in the left corner.
    Once the Files menu appears, click the "Upload to session storage" icon ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/9e24227a-370f-4871-8746-a48e1f7925f2)
    navigate to the folder where you extracted the files in step 1, select the data.csv file
@@ -41,10 +41,10 @@ that appears in the left corner.
 
    click open to upload (ignore the warning - if it appears).
 
-8) Go to the Run environment menu and select Run all
+7) Go to the Run environment menu and select Run all
    ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/7baf2dc7-9a2e-4e86-9589-fdca735d1d55)
 
-9) Enter data for each factor relating to the individual in question:
+8) Enter data for each factor relating to the individual in question:
    
   	Suicide in the family: Enter 1 for Yes and 0 for No. Click "Enter"
   
@@ -78,7 +78,7 @@ that appears in the left corner.
   	Anxiety: Enter a number from 0 to 4, where: 0=Absent: No difficulty; 1=Doubtful or trivial: Subjective tension and irritability; 2=Mild: Preoccupation with minor matters;
         3=Moderate: Apprehensive attitude apparent on face or speech; 4=Severe: Fears expressed without questioning. Click "Enter"
 
-10) Go down the scroll bar in the right corner, following the execution of the application. After a few minutes, the value with the level of suicidal ideation predicted for the individual will be displayed according to the values ​​entered in step 10
+9) Go down the scroll bar in the right corner, following the execution of the application. After a few minutes, the value with the level of suicidal ideation predicted for the individual will be displayed according to the values ​​entered in step 10
 11) The last step is to carry out counterfactual** analyzes simulating changes in each of the factors. You can change each of the 10 factors and see if the level of suicidal ideation will be raised with the change.
   
   Note: Note: If you need to perform more simulations, run the last cell again by clicking on the icon ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/247562ea-7670-4f6b-84ca-db5fd4d5a582)
@@ -105,16 +105,16 @@ Passos para execução:
 
 1) No canto superior direito desta página, cliquem em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/77bf57af-2450-4075-a64a-6b40da37bfc0) e Selecione a opção "Download ZIP"![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/c9e35a04-7156-4dd0-b6a7-8b162fef6e6f)
    
-3) Vá até a pasta em que o arquivo foi salvo (provavemlmente Downloads). Extraia o arquivo "ZIP" em uma pasta clicando com o botão direito em cima dele e posteriormente em "Extrair tudo" ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/00307deb-2619-480a-8b29-493a1006585c)
+2) Vá até a pasta em que o arquivo foi salvo (provavemlmente Downloads). Extraia o arquivo "ZIP" em uma pasta clicando com o botão direito em cima dele e posteriormente em "Extrair tudo" ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/00307deb-2619-480a-8b29-493a1006585c)
 
-4) Abra o link do google colab https://colab.research.google.com/ em um navegador (ex: google chrome)  
-5) Faça o login com sua conta google no navegador clicando em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/dee6386a-fb9b-4fdb-a73f-49161bd5cbe8) no canto superior direito.
+3) Abra o link do google colab https://colab.research.google.com/ em um navegador (ex: google chrome)  
+4) Faça o login com sua conta google no navegador clicando em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/dee6386a-fb9b-4fdb-a73f-49161bd5cbe8) no canto superior direito.
    Será aberto uma página contendo o código da aplicação.
                                                                 
-6) Acesse  ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/9a339cba-c7b0-45f3-b4da-e99000678daf), clique em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/925a5edd-eb04-4bf4-9e9e-d4a61404c2ab)
+5) Acesse  ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/9a339cba-c7b0-45f3-b4da-e99000678daf), clique em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/925a5edd-eb04-4bf4-9e9e-d4a61404c2ab)
    navegue até a pasta que contenha o arquivo simulacao_contrafactual_novo_individuo.ipynb. Clique em abrir.
    Será aberto uma página contendo o código da aplicação.
-7) Clique no ícone ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/737a8af9-06e8-445d-b088-3dcf1fa5604e)
+6) Clique no ícone ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/737a8af9-06e8-445d-b088-3dcf1fa5604e)
  que aparece no canto esquerdo.
 
    Assim que o menu Arquivos aparecer, clique no ícone "Fazer upload para o armazenamento da sessão" ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/d0567cb7-755e-4ea7-bc46-54f789d53f51)
@@ -122,11 +122,11 @@ Passos para execução:
  navegue até a pasta em que extraiu os arquivos no passo 1, selecione o arquivo data.csv ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/02f35886-4982-46db-a0b9-7ae5ce9f1810)
  clique em abrir para fazer o upload (ignore o aviso - caso apareça).
    
-9) Acesse o menu Ambiente de execução e selecione Executar tudo
+7) Acesse o menu Ambiente de execução e selecione Executar tudo
     
     ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/220672a2-6fd1-4ee3-8eba-51e5f3cac072)
 
-11) Entre com os dados de cada fator referente ao indivíduo em questão:
+8) Entre com os dados de cada fator referente ao indivíduo em questão:
    
 	  Suicídio na família: Digite 1 para Sim e 0 para não. Clique em "Enter"  
    
@@ -159,10 +159,10 @@ Passos para execução:
    	  Ansiedade: Digite um número de 0 a 4, sendo: 0=Ausente: Sem dificuldade; 1=Duvidoso ou trivial: Tensão subjetiva e irritabilidade; 2=Leve: Preocupação com
           assuntos menores; 3=Moderado: Atitude apreensiva aparente na face ou na fala; 4=Grave: Medos expressos sem questionamento. Clique em "Enter"
 
-13) Vá descendo a barra de rolagem que está no canto direito, acompanhando a execussão da aplicação. Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo de acordo com os
+9) Vá descendo a barra de rolagem que está no canto direito, acompanhando a execussão da aplicação. Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo de acordo com os
     valores inseridos no passo 11 ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/0fc12243-ac47-4c04-a22b-1a4497e3fbf7)
 
-15) O último passo é fazer as análises contrafactuais** simulando alterações em cada um dos fatores.
+10) O último passo é fazer as análises contrafactuais** simulando alterações em cada um dos fatores.
 Você pode alterar cada um dos 10 fatores e verificar se o nível de ideação suicida será sensibilizado com a mudança.
 
 Obs.: Caso necessite efetuar mais simulações, execute a última célula novamente clicando no ícone ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/7d9621c7-6017-495b-bbf8-545a5334fd60)
