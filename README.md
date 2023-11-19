@@ -35,16 +35,18 @@ at the top right corner. A page containing the application code will open.
 
 6) Click on the  ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/b068dab9-6b5d-4b64-938f-68b25ffccf7b)
 that appears in the left corner.
-   Once the Files menu appears, click the "Upload to session storage" icon ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/9e24227a-370f-4871-8746-a48e1f7925f2)
+   Once the Files menu appears, click the "Upload to session storage"
+    ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/9e24227a-370f-4871-8746-a48e1f7925f2)
    navigate to the folder where you extracted the files in step 1, select the data.csv file
+   
 ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/796ccb86-0f49-42bb-b7c1-32591f4bbd7f)
 
    click open to upload (ignore the warning - if it appears).
 
-7) Go to the Run environment menu and select Run all
+8) Go to the Run environment menu and select Run all
    ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/7baf2dc7-9a2e-4e86-9589-fdca735d1d55)
 
-8) Enter data for each factor relating to the individual in question:
+9) Enter data for each factor relating to the individual in question:
    
   	Suicide in the family: Enter 1 for Yes and 0 for No. Click "Enter"
   
@@ -78,7 +80,7 @@ that appears in the left corner.
   	Anxiety: Enter a number from 0 to 4, where: 0=Absent: No difficulty; 1=Doubtful or trivial: Subjective tension and irritability; 2=Mild: Preoccupation with minor matters;
         3=Moderate: Apprehensive attitude apparent on face or speech; 4=Severe: Fears expressed without questioning. Click "Enter"
 
-9) Go down the scroll bar in the right corner, following the execution of the application. After a few minutes, the value with the level of suicidal ideation predicted for the individual will be displayed according to the values ​​entered in step 10
+10) Go down the scroll bar in the right corner, following the execution of the application. After a few minutes, the value with the level of suicidal ideation predicted for the individual will be displayed according to the values ​​entered in step 10
 11) The last step is to carry out counterfactual** analyzes simulating changes in each of the factors. You can change each of the 10 factors and see if the level of suicidal ideation will be raised with the change.
   
   Note: Note: If you need to perform more simulations, run the last cell again by clicking on the icon ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/247562ea-7670-4f6b-84ca-db5fd4d5a582)
