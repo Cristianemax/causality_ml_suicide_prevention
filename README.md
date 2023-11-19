@@ -36,7 +36,9 @@ at the top right corner. A page containing the application code will open.
 6) Click on the  ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/b068dab9-6b5d-4b64-938f-68b25ffccf7b)
 that appears in the left corner.
    Once the Files menu appears, click the "Upload to session storage"
+   
     ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/9e24227a-370f-4871-8746-a48e1f7925f2)
+
    navigate to the folder where you extracted the files in step 1, select the data.csv file
    
 ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/796ccb86-0f49-42bb-b7c1-32591f4bbd7f)
