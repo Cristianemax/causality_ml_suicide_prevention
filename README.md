@@ -8,9 +8,9 @@ Suicide is among the 20 most common causes of death according to an assessment b
 
 In order to assist in suicide prevention, we used clinical data from outpatients to identify possible causal factors that may establish relationships with suicidal ideation. To this end, we use causal inference and machine learning methods.
 
-The factors used for causal inference were: Sex, Marital Status, Type of Residence, Alcoholic, Drug Use, Suicide in the Family, Depression in the Family, History of alcohol use in the family, Drugs in the Family, Neurological Disease, Psychiatric Disease, Capable of enjoying things, Impact of your Family and friends, Able to make important decisions, Student, Insomnia, Anxiety, Loss of insights, Appetite, Weight loss, Somatic anxiety, Hypochondriasis, Feeling of Guilt, Work and interests, Energy, Slowness in thought and speech, Agitation, Libido, OCD and age.
+The factors used for causal inference were: Sex, Marital Status, Type of Residence, Alcoholic, Drug Use, Suicide in the Family, Depression in the Family, History of alcohol use in the family, Drugs in the Family, Neurological Disease, Psychiatric Disease, Capable of enjoying things, Impact of your Family and friends, Capacity of making important decisions, Student, Insomnia, Anxiety, Loss of insights, Appetite, Weight loss, Somatic anxiety, Hypochondriasis, Feeling of Guilt, Work and interests, Energy, Slowness in thought and speech, Agitation, Libido, OCD and age.
 
-After our research, the factors that presented themselves as possible causes that lead an individual to have suicidal ideation were: Suicide in the family, Able to make important decisions, Student, Hypochondriasis, Feelings of guilt, Work and interests, Depression in the family, History of use of alcohol in the family, Able to enjoy things and Use of drugs.
+After our research, the factors that presented themselves as possible causes that lead an individual to have suicidal ideation were: Suicide in the family, Capacity of making important decisions, Student, Hypochondriasis, Feelings of guilt, Work and interests, Depression in the family, History of use of alcohol in the family, Capacity of enjoying things and Use of drugs.
 
 The objective of this project is to carry out counterfactual simulations to obtain the possible factors that influence a certain individual to have suicidal ideation.
 With it, health professionals who care for patients with suicidal ideation will be able to work with them more assertively, aiming to mitigate or even eliminate such ideation.
@@ -50,7 +50,7 @@ that appears in the left corner.
   
   	Drugs in the family: Enter 1 for Yes and 0 for No. Click "Enter"
   
-  	Able to make important decisions: Enter a number from 1 to 5, where: 1=I completely agree; 2=Agree; 3=Neutral; 4=Disagree; 5=I completely disagree. Click "Enter"
+  	Capacity of making important decisions: Enter a number from 1 to 5, where: 1=I completely agree; 2=Agree; 3=Neutral; 4=Disagree; 5=I completely disagree. Click "Enter"
   
   	Student: Enter a number from 0 to 2, where: 0=No; 1=Yes; 2=Part-time. Click "Enter"
   
@@ -69,7 +69,7 @@ that appears in the left corner.
    
   	History of alcohol use in the family: Enter 1 for Yes and 0 for No. Click "Enter"
    
-	Able to enjoy things: Enter a number from 1 to 5, where: 1=I completely agree; 2=Agree; 3=Neutral; 4=Disagree; 5=I completely disagree. Click "Enter"
+	Capacity of enjoying things: Enter a number from 1 to 5, where: 1=I completely agree; 2=Agree; 3=Neutral; 4=Disagree; 5=I completely disagree. Click "Enter"
 
 	Drug use: Enter a number from 0 to 2, where: 0=None verified; 1=Abuse; 2=Dependent. Click "Enter"
   
