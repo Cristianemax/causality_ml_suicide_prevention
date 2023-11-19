@@ -82,8 +82,10 @@ that appears in the left corner.
   	Anxiety: Enter a number from 0 to 4, where: 0=Absent: No difficulty; 1=Doubtful or trivial: Subjective tension and irritability; 2=Mild: Preoccupation with minor matters;
         3=Moderate: Apprehensive attitude apparent on face or speech; 4=Severe: Fears expressed without questioning. Click "Enter"
 
-10) Go down the scroll bar in the right corner, following the execution of the application. After a few minutes, the value with the level of suicidal ideation predicted for the individual will be displayed according to the values ​​entered in step 10
-11) The last step is to carry out counterfactual** analyzes simulating changes in each of the factors. You can change each of the 10 factors and see if the level of suicidal ideation will be raised with the change.
+10) Go down the scroll bar in the right corner, following the execution of the application. After a few minutes, the value with the level of suicidal ideation predicted for the individual will be displayed according to the values ​​entered in step 8
+    ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/31b27648-2175-442f-bc07-89af3c4d4613)
+
+12) The last step is to carry out counterfactual** analyzes simulating changes in each of the factors. You can change each of the 10 factors and see if the level of suicidal ideation will be raised with the change.
   
   Note: Note: If you need to perform more simulations, run the last cell again by clicking on the icon ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/247562ea-7670-4f6b-84ca-db5fd4d5a582)
   A change in the value of the level of suicidal ideation in a simulation may mean that the individual is sensitive to the factor in question.
@@ -167,7 +169,7 @@ Passos para execução:
           assuntos menores; 3=Moderado: Atitude apreensiva aparente na face ou na fala; 4=Grave: Medos expressos sem questionamento. Clique em "Enter"
 
 10) Vá descendo a barra de rolagem que está no canto direito, acompanhando a execussão da aplicação. Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo de acordo com os
-    valores inseridos no passo 11 ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/0fc12243-ac47-4c04-a22b-1a4497e3fbf7)
+    valores inseridos no passo 9 ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/0fc12243-ac47-4c04-a22b-1a4497e3fbf7)
 
 11) O último passo é fazer as análises contrafactuais** simulando alterações em cada um dos fatores.
 Você pode alterar cada um dos 10 fatores e verificar se o nível de ideação suicida será sensibilizado com a mudança.
@@ -177,3 +179,7 @@ Obs.: Caso necessite efetuar mais simulações, execute a última célula novame
       é sensível ao fator da simulação em questão. 
 
 ** O pensamento contrafactual é um tipo de pensamento imaginativo caracterizado pela simulação mental de alternativas para eventos passados visando alterar a sequência de eventos para que se chegue a um desfecho diferente daquele que de fato ocorreu. Efetuando simulações nos fatores que se apresentaram como possíveis causas da ideação suicida, é possível chegar a conclusão de qual fator seria importante trabalhar prioritariamente em cada individuo.
+
+
+### Reference
+Organization, W. H. et al. Suicide: one person dies every 40 seconds. URL: https://www.who.int/news/item/09-09-2019-suicide-one-person-dies-every-40-seconds, 2019.
