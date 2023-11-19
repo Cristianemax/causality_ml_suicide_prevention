@@ -39,11 +39,11 @@ that appears in the left corner.
    
     ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/9e24227a-370f-4871-8746-a48e1f7925f2)
 
-   navigate to the folder where you extracted the files in step 1, select the data.csv file
+    navigate to the folder where you extracted the files in step 1, select the data.csv file
    
-![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/796ccb86-0f49-42bb-b7c1-32591f4bbd7f)
+    ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/796ccb86-0f49-42bb-b7c1-32591f4bbd7f)
 
-   click open to upload (ignore the warning - if it appears).
+    click open to upload (ignore the warning - if it appears).
 
 8) Go to the Run environment menu and select Run all
    ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/7baf2dc7-9a2e-4e86-9589-fdca735d1d55)
@@ -121,16 +121,18 @@ Passos para execução:
 6) Clique no ícone ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/737a8af9-06e8-445d-b088-3dcf1fa5604e)
  que aparece no canto esquerdo.
 
-   Assim que o menu Arquivos aparecer, clique no ícone "Fazer upload para o armazenamento da sessão" ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/d0567cb7-755e-4ea7-bc46-54f789d53f51)
+   Assim que o menu Arquivos aparecer, clique no ícone "Fazer upload para o armazenamento da sessão"
+   ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/d0567cb7-755e-4ea7-bc46-54f789d53f51)
 
- navegue até a pasta em que extraiu os arquivos no passo 1, selecione o arquivo data.csv ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/02f35886-4982-46db-a0b9-7ae5ce9f1810)
- clique em abrir para fazer o upload (ignore o aviso - caso apareça).
+   navegue até a pasta em que extraiu os arquivos no passo 1, selecione o arquivo data.csv
+   ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/02f35886-4982-46db-a0b9-7ae5ce9f1810)
+   clique em abrir para fazer o upload (ignore o aviso - caso apareça).
    
-7) Acesse o menu Ambiente de execução e selecione Executar tudo
+8) Acesse o menu Ambiente de execução e selecione Executar tudo
     
     ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/220672a2-6fd1-4ee3-8eba-51e5f3cac072)
 
-8) Entre com os dados de cada fator referente ao indivíduo em questão:
+9) Entre com os dados de cada fator referente ao indivíduo em questão:
    
 	  Suicídio na família: Digite 1 para Sim e 0 para não. Clique em "Enter"  
    
@@ -163,10 +165,10 @@ Passos para execução:
    	  Ansiedade: Digite um número de 0 a 4, sendo: 0=Ausente: Sem dificuldade; 1=Duvidoso ou trivial: Tensão subjetiva e irritabilidade; 2=Leve: Preocupação com
           assuntos menores; 3=Moderado: Atitude apreensiva aparente na face ou na fala; 4=Grave: Medos expressos sem questionamento. Clique em "Enter"
 
-9) Vá descendo a barra de rolagem que está no canto direito, acompanhando a execussão da aplicação. Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo de acordo com os
+10) Vá descendo a barra de rolagem que está no canto direito, acompanhando a execussão da aplicação. Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo de acordo com os
     valores inseridos no passo 11 ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/0fc12243-ac47-4c04-a22b-1a4497e3fbf7)
 
-10) O último passo é fazer as análises contrafactuais** simulando alterações em cada um dos fatores.
+11) O último passo é fazer as análises contrafactuais** simulando alterações em cada um dos fatores.
 Você pode alterar cada um dos 10 fatores e verificar se o nível de ideação suicida será sensibilizado com a mudança.
 
 Obs.: Caso necessite efetuar mais simulações, execute a última célula novamente clicando no ícone ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/7d9621c7-6017-495b-bbf8-545a5334fd60)
