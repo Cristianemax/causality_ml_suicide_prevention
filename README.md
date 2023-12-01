@@ -56,7 +56,7 @@ that appears in the left corner.
   
   	Capacity of making important decisions: Enter a number from 1 to 5, where: 1=I completely agree; 2=Agree; 3=Neutral; 4=Disagree; 5=I completely disagree. Click "Enter"
   
-  	Student: Enter a number from 0 to 2, where: 0=No; 1=Yes; 2=Part-time. Click "Enter"
+  	Student: Enter a number from 0 to 1, where: 0=No; 1=Yes; 0.5=Part-time. Click "Enter"
   
   	Hypochondriasis: Enter a number from 0 to 4, where: 0=Absent; 1=Light; 2=Moderate; 3=Moderately severe; 4=Severe. Click "Enter"
   
@@ -141,7 +141,7 @@ Passos para execução:
    
 	  Capaz de tomar decisões importantes: Digite um número de 1 a 5, sendo: 1=Concordo totalmente; 2=Concordo; 3=Neutro; 4=Discordo; 5=Discordo totalmente. Clique em "Enter"
    
-	  Estudante: Digite um número de 0 a 2, sendo: 0=Não; 1=Sim; 2=Meio período. Clique em "Enter"
+	  Estudante: Digite um número de 0 a 1, sendo: 0=Não; 1=Sim; 0.5=Meio período. Clique em "Enter"
    
 	  Hipocondriase: Digite um número de 0 a 4, sendo: 0=Ausente; 1=Leve; 2=Moderado; 3=Moderadamente grave; 4=Grave. Clique em "Enter"
    
