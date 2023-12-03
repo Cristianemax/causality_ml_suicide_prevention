@@ -246,7 +246,7 @@ Passos para execução:
    ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/d0567cb7-755e-4ea7-bc46-54f789d53f51)
 
    navegue até a pasta em que extraiu os arquivos no passo 1, selecione os arquivos data.csv e data_base.csv
-   ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/02f35886-4982-46db-a0b9-7ae5ce9f1810)
+   ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/0f47296e-1dbe-42b3-96a4-6623d4974dc2)
 
    clique em abrir para fazer o upload (ignore o aviso - caso apareça).
    
