@@ -113,13 +113,15 @@ Passos para execução:
    
 2) Vá até a pasta em que o arquivo foi salvo (provavemlmente Downloads). Extraia o arquivo "ZIP" em uma pasta clicando com o botão direito em cima dele e posteriormente em "Extrair tudo" ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/00307deb-2619-480a-8b29-493a1006585c)
 
-3) Abra o link do google colab https://colab.research.google.com/ em um navegador (ex: google chrome)  
+3) Abra o link do google colab https://colab.research.google.com/ em um navegador (ex: google chrome)
+   
 4) Faça o login com sua conta google no navegador clicando em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/dee6386a-fb9b-4fdb-a73f-49161bd5cbe8) no canto superior direito.
    Será aberto uma página contendo o código da aplicação.
                                                                 
 5) Acesse  ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/9a339cba-c7b0-45f3-b4da-e99000678daf), clique em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/925a5edd-eb04-4bf4-9e9e-d4a61404c2ab)
    navegue até a pasta que contenha o arquivo simulacao_contrafactual_novo_individuo.ipynb. Clique em abrir.
    Será aberto uma página contendo o código da aplicação.
+   
 6) Clique no ícone ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/737a8af9-06e8-445d-b088-3dcf1fa5604e)
  que aparece no canto esquerdo.
 
@@ -131,11 +133,11 @@ Passos para execução:
 
    clique em abrir para fazer o upload (ignore o aviso - caso apareça).
    
-8) Acesse o menu Ambiente de execução e selecione Executar tudo
+7) Acesse o menu Ambiente de execução e selecione Executar tudo
     
     ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/220672a2-6fd1-4ee3-8eba-51e5f3cac072)
 
-9) Entre com os dados de cada fator referente ao indivíduo em questão:
+8) Entre com os dados de cada fator referente ao indivíduo em questão:
    
 	  Suicídio na família: Digite 1 para Sim e 0 para não. Clique em "Enter"  
    
@@ -168,10 +170,10 @@ Passos para execução:
    	  Ansiedade: Digite um número de 0 a 4, sendo: 0=Ausente: Sem dificuldade; 1=Duvidoso ou trivial: Tensão subjetiva e irritabilidade; 2=Leve: Preocupação com
           assuntos menores; 3=Moderado: Atitude apreensiva aparente na face ou na fala; 4=Grave: Medos expressos sem questionamento. Clique em "Enter"
 
-10) Vá descendo a barra de rolagem que está no canto direito, acompanhando a execussão da aplicação. Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo de acordo com os
+9) Vá descendo a barra de rolagem que está no canto direito, acompanhando a execussão da aplicação. Após alguns minutos será exibido o valor com o nível de ideação suicida previsto para o indivíduo de acordo com os
     valores inseridos no passo 9 ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/0fc12243-ac47-4c04-a22b-1a4497e3fbf7)
 
-11) O último passo é fazer as análises contrafactuais** simulando alterações em cada um dos fatores.
+10) O último passo é fazer as análises contrafactuais** simulando alterações em cada um dos fatores.
 Você pode alterar cada um dos 10 fatores e verificar se o nível de ideação suicida será sensibilizado com a mudança.
 
 Obs.: Caso necessite efetuar mais simulações, execute a última célula novamente clicando no ícone ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/7d9621c7-6017-495b-bbf8-545a5334fd60)
@@ -180,6 +182,81 @@ Obs.: Caso necessite efetuar mais simulações, execute a última célula novame
 
 ** O pensamento contrafactual é um tipo de pensamento imaginativo caracterizado pela simulação mental de alternativas para eventos passados visando alterar a sequência de eventos para que se chegue a um desfecho diferente daquele que de fato ocorreu. Efetuando simulações nos fatores que se apresentaram como possíveis causas da ideação suicida, é possível chegar a conclusão de qual fator seria importante trabalhar prioritariamente em cada individuo.
 
+## Para efetaur simulações de vários incivíduos simultaneamene (utilize o arquivo simulacao_contrafactual_novos_individuos)
+
+Passos para execução:
+
+1) No canto superior direito desta página, cliquem em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/77bf57af-2450-4075-a64a-6b40da37bfc0) e Selecione a opção "Download ZIP"![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/c9e35a04-7156-4dd0-b6a7-8b162fef6e6f)
+   
+2) Vá até a pasta em que o arquivo foi salvo (provavemlmente Downloads). Extraia o arquivo "ZIP" em uma pasta clicando com o botão direito em cima dele e posteriormente em "Extrair tudo" ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/00307deb-2619-480a-8b29-493a1006585c)
+   
+3) Abra a planilha data_base.csv e preencha com os dados dos pacientes de acordo com os parâmetros:
+
+  > Suicídio na família: Entre com 1 para Sim e 0 para não.
+
+  > Capaz de tomar decisões importantes: Entre com um número de 1 a 5, sendo: 1=Concordo totalmente; 2=Concordo; 3=Neutro; 4=Discordo;
+    5=Discordo totalmente.
+
+  > Estudante: Entre com um número de 0 a 1, sendo: 0=Não; 1=Sim; 0.5=Meio período.
+
+  > Hipocondriase: Entre com um número de 0 a 4, sendo: 0=Ausente; 1=Leve 2=Moderado; 3=Moderadamente grave;
+    4=Grave.
+
+  > Sentimentos de culpa: Entre com um número de 0 a 4, sendo: 0=Ausente, 1=Duvidoso ou trivial: Autocensura, sente que decepcionou as
+    pessoas    2=Leve: Idéias de culpa ou ruminação sobre erros passados ou atos pecaminosos; 3=Moderado: A doença atual é uma punição.
+    Delírios de culpa    4=Grave: Ouve vozes acusatórias ou denunciatórias e/ou experimenta alucinações visuais ameaçadoras.
+
+  > Trabalho e interesses: Entre com um número de 0 a 4, sendo:0=Ausente: Sem dificuldade; 1=Duvidoso ou trivial: Pensamentos e
+    sentimentos de incapacidade, cansaço ou fraqueza relacionados às atividades; trabalho ou hobbies; 2=Leve: Perda de interesse pela
+    atividade; hobbies    ou trabalho – relatados diretamente pelo paciente, ou indiretos em apatia, indecisão e vacilação
+    (sente que precisa se esforçar para
+    trabalhar ou realizar atividades); 3=Moderado: Diminuição do tempo real gasto nas atividades ou diminuição da produtividade; 4=Grave:
+    Deixou de trabalhar por doença atual.
+
+  > Depressão na familia:  Entre com 1 para Sim e 0 para não.
+
+  > Histórico de uso de álcool na familia:  Entre com 1 para Sim e 0 para não.
+
+  > Capaz de desfrutar das coisas: Entre com um número de 1 a 5, sendo: 1=Concordo totalmente; 2=Concordo; 3=Neutro; 4=Discordo;
+    5=Discordo totalmente.
+
+  > Uso de drogas: Entre com um número de 0 a 2, sendo: 0=Nenhum verificado; 1=Abuso; 2=Dependente.
+
+  > Suicidio: Entre com um número de 0 a 4, sendo: : 0=Ausente; 1=Sente que a vida está vazia; 2=Desejos de morte;
+    3=Pensamentos suicidas ativos; 4=Tentativa grave de suicídio.
+
+  > Ansiedade: Entre com um número de 0 a 4, sendo: 0=Ausente: Sem dificuldade 1=Duvidoso ou trivial:
+    Tensão subjetiva e irritabilidade;
+    2=Leve: Preocupação com assuntos menores; 3=Moderado: Atitude apreensiva aparente na face ou na fala;
+    4=Grave: Medos expressos sem questionamento.
+
+4) Abra o link do google colab https://colab.research.google.com/ em um navegador (ex: google chrome)
+   
+5) Faça o login com sua conta google no navegador clicando em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/dee6386a-fb9b-4fdb-a73f-49161bd5cbe8) no canto superior direito.
+   Será aberto uma página contendo o código da aplicação.
+                                                                
+6) Acesse  ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/9a339cba-c7b0-45f3-b4da-e99000678daf), clique em ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/925a5edd-eb04-4bf4-9e9e-d4a61404c2ab)
+   navegue até a pasta que contenha o arquivo simulacao_contrafactual_novos_individuos.ipynb. Clique em abrir.
+   Será aberto uma página contendo o código da aplicação.
+   
+7) Clique no ícone ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/737a8af9-06e8-445d-b088-3dcf1fa5604e)
+ que aparece no canto esquerdo.
+
+   Assim que o menu Arquivos aparecer, clique no ícone "Fazer upload para o armazenamento da sessão"
+   ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/d0567cb7-755e-4ea7-bc46-54f789d53f51)
+
+   navegue até a pasta em que extraiu os arquivos no passo 1, selecione os arquivos data.csv e data_base.csv
+   ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/02f35886-4982-46db-a0b9-7ae5ce9f1810)
+
+   clique em abrir para fazer o upload (ignore o aviso - caso apareça).
+   
+8) Acesse o menu Ambiente de execução e selecione Executar tudo
+    
+    ![image](https://github.com/Cristianemax/causality_ml_suicide_prevention/assets/65812157/220672a2-6fd1-4ee3-8eba-51e5f3cac072)
+
+9) Após alguns minutos será gerado o arquivo data_final com o nível de ideação suicida predito e com os fatores que refletiram alterações no nível de ideação suicida após alguma mudança. Acesse o ícone Arquivos no menu do canto esquerdo, clique com o botão direito no arquivo data_final e selecione Fazer download. O arquivo será salvo na pasta download do seu computador.
+
+Obs: A alteração do valor do nível de ideação suicida em alguma simulação, pode significar que o indíviduo é sensível ao fator da simulação em questão. O valor da coluna ID da planilha data_final corresponde ao número da linha que determinado indíviduo está localizado no arquivo data_base.
 
 ### Reference
 Organization, W. H. et al. Suicide: one person dies every 40 seconds. URL: https://www.who.int/news/item/09-09-2019-suicide-one-person-dies-every-40-seconds, 2019.
